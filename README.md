@@ -66,7 +66,7 @@ this.nums.forEach((v) => {
 ```
 ---
 
-## Extended parameter handling
+## 3> Extended parameter handling
 ES5:
 ```
 function f (x, y, z) {
@@ -86,7 +86,7 @@ function f (x, y = 7, z = 42) {
 f(1) === 50
 ```
 ---
-## String Interpolation:
+## 4> String Interpolation:
 ES5:
 ```
 var customer = { name: "Foo" };
@@ -104,7 +104,7 @@ want to buy ${card.amount} ${card.product} for
 a total of ${card.amount * card.unitprice} bucks?`
 ```
 ---
-## Object properties:
+## 5> Object properties:
 
 ### computed properties name:
 ES5:
@@ -151,7 +151,7 @@ obj = {
 }
 ```
 ---
-## Classes
+## 6> Classes
 
 ### Defination:
 ES5:
@@ -212,7 +212,7 @@ class Circle extends Shape {
 }
 ```
 ---
-## Promise:
+## 7> Promise:
 ES5:
 ```
 function msgAfterTimeout (msg, who, timeout, onDone) {
